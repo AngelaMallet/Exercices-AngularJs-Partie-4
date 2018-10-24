@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr" ng-app>
+<head>
+<meta charset="UTF-8" />
+<title>Exercice 6</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button ng-click="showme=true;showme2=false">paragrahe 1</button>
+<button ng-click="showme=false;showme2=true">paragrahe 2</button>
+
+  <div>
+    <p ng-hide="showme">Bien sûr, dit le renard.<br> Tu n'es encore pour moi qu'un petit garçon tout semblable à mille petits garçons. <br> Et je n'ai pas besoin de toi. Et tu n'as pas besoin de moi non plus.<br>Je ne suis pour toi qu'un renard semblable à cent mille renards.<br> Mais, si tu m'apprivoises, nous aurons besoin l'un de l'autre. Tu seras pour moi unique au monde.<br> Je serai pour toi unique au monde"</p>
+</div>
+  <div>
+    <p ng-hide="showme2">Né en 1943 à New York, Le Petit Prince est un phénomène de l’édition mondiale.<br>
+Le Petit Prince est un conte philosophique qui séduit pour les valeurs qu’il porte,<br> qui se transmet et se partage de génération en génération depuis plus de 75 ans.br
+ Créateur de liens entre les générations, les hommes et les continents,<br> Le Petit Prince est également une Icône du développement durable, un acteur de la paix dans le monde, et un défenseur des droits de l’enfant.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+</body>
+</html>
